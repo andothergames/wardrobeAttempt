@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "DroidSans";
+    src: url("DroidSans.ttf");
+}
+
+/* @font-face {
+    font-family: DroidSansBold;
+    src: local('DroidSans-Bold.ttf');
+} */
+
+
+body {
+background-color: aliceblue;
+font-family: 'DroidSans';
+font-size: 12pt;
+color:cadetblue;
+max-width: 800px;
+padding: 6px;
+border-color: cadetblue;
+border-width: 1pt;
+border-radius: 6pt;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.menuBar {
+    background-color: cadetblue;
+    color:azure;
+    position: inline;
+
+}
+
+h1 {
+font-size: 1.2em;
+}
+
+.gallery {
+    width:100%;
+    text-align:center;
+    padding:6px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+.footer {
+position:fixed;
+bottom:0;
+padding:6pt;
+width:100%;
+max-width: 800px;
+height: 40px;
+background-color:aquamarine;
+color:blue;
+margin-left: auto;
+margin-right: auto;
+}
+
+.icons {
+width:30px;
+}
